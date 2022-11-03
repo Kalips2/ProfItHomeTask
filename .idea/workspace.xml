@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7edf9e94-742e-4e7b-8942-743ef3d17983" name="Changes" comment="Task 1 is done">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/home1/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/taskFirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SecondTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HT_1/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HT_1/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home1/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HT_1/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home1/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/home1/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home1/Task2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,51 +43,56 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.taskFirstTest">
-    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SecondTest.checkIsCorrectNumberOfHaha">
+    <configuration name="SecondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="MAIN_CLASS_NAME" value="SecondTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.checkIsCorrectResultForAllNegativeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecondTest.checkIsCorrectNumberOfGoodDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="checkIsCorrectResultForAllNegativeNumbers" />
+      <option name="MAIN_CLASS_NAME" value="SecondTest" />
+      <option name="METHOD_NAME" value="checkIsCorrectNumberOfGoodDay" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.checkIsCorrectResultForAllPositiveNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecondTest.checkIsCorrectNumberOfHaha" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="checkIsCorrectResultForAllPositiveNumbers" />
+      <option name="MAIN_CLASS_NAME" value="SecondTest" />
+      <option name="METHOD_NAME" value="checkIsCorrectNumberOfHaha" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.checkIsCorrectResultFourth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecondTest.checkIsCorrectSizeOfResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="checkIsCorrectResultFourth" />
+      <option name="MAIN_CLASS_NAME" value="SecondTest" />
+      <option name="METHOD_NAME" value="checkIsCorrectSizeOfResult" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.checkIsCorrectResultThird" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecondTest.checkTheSizeLesserThanFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="checkIsCorrectResultThird" />
+      <option name="MAIN_CLASS_NAME" value="SecondTest" />
+      <option name="METHOD_NAME" value="checkTheSizeLesserThanFive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.taskFirstTest" />
-        <item itemvalue="JUnit.taskFirstTest.checkIsCorrectResultForAllPositiveNumbers" />
-        <item itemvalue="JUnit.taskFirstTest.checkIsCorrectResultFourth" />
-        <item itemvalue="JUnit.taskFirstTest.checkIsCorrectResultThird" />
-        <item itemvalue="JUnit.taskFirstTest.checkIsCorrectResultForAllNegativeNumbers" />
+        <item itemvalue="JUnit.SecondTest.checkIsCorrectNumberOfHaha" />
+        <item itemvalue="JUnit.SecondTest" />
+        <item itemvalue="JUnit.SecondTest.checkIsCorrectSizeOfResult" />
+        <item itemvalue="JUnit.SecondTest.checkIsCorrectNumberOfGoodDay" />
+        <item itemvalue="JUnit.SecondTest.checkTheSizeLesserThanFive" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667323269435</updated>
       <workItem from="1667323271339" duration="9554000" />
-      <workItem from="1667485006564" duration="1992000" />
+      <workItem from="1667485006564" duration="10692000" />
     </task>
     <task id="LOCAL-00001" summary="Create empty project">
       <created>1667323421387</created>
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667323956523</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Task 1 is done">
+      <created>1667487060303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667487060303</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
