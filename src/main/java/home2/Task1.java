@@ -1,4 +1,4 @@
-package HT_2;
+package home2;
 
 public class Task1 {
 }
