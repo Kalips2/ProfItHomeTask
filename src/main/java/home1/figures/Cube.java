@@ -1,8 +1,5 @@
 package home1.figures;
 
-
-import java.util.Objects;
-
 public class Cube extends Shape {
 
     double side;
@@ -27,6 +24,6 @@ public class Cube extends Shape {
 
     @Override
     public String toString() {
-        return String.valueOf("Cube: "  + side + " " +  getVolume());
+        return "Cube: " + side + " " + getVolume();
     }
 }

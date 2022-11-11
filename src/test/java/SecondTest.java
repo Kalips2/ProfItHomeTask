@@ -27,6 +27,7 @@ public class SecondTest {
         assertEquals(expected, result);
     }
 
+    //If equals would incorrect, we need to check each element:
 
     @Test
     public void checkIsCorrectSizeOfResult() {

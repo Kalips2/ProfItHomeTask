@@ -25,6 +25,6 @@ public class Sphere extends Shape {
 
     @Override
     public String toString() {
-        return String.valueOf("Sphere: "+ radius + " " +  getVolume());
+        return "Sphere: " + radius + " " + getVolume();
     }
 }

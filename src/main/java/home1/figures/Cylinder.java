@@ -34,6 +34,6 @@ public class Cylinder extends Shape {
 
     @Override
     public String toString() {
-        return String.valueOf("Cylinder:" + radius + " "  + height +  " " +  getVolume());
+        return "Cylinder:" + radius + " "  + height +  " " +  getVolume();
     }
 }
