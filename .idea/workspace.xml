@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7edf9e94-742e-4e7b-8942-743ef3d17983" name="Changes" comment="Task 1 is done">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SecondTest.java" afterDir="false" />
+    <list default="true" id="7edf9e94-742e-4e7b-8942-743ef3d17983" name="Changes" comment="Task 2 done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/home1/figures/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/home1/figures/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/home1/figures/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/home1/figures/Sphere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ThirdTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/home1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home1/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/home1/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home1/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/home1/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home1/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,22 +42,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Рабочий стол/JavaPractice/MateAcademy",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Рабочий стол/JavaPractice/MateAcademy&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SecondTest.checkIsCorrectNumberOfHaha">
+  <component name="RunManager" selected="JUnit.ThirdTask.checkCorrectSortingByDes">
     <configuration name="SecondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <option name="PACKAGE_NAME" value="" />
@@ -58,41 +67,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondTest.checkIsCorrectNumberOfGoodDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecondTest.checkTheCorrectResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SecondTest" />
-      <option name="METHOD_NAME" value="checkIsCorrectNumberOfGoodDay" />
+      <option name="METHOD_NAME" value="checkTheCorrectResult" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondTest.checkIsCorrectNumberOfHaha" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThirdTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SecondTest" />
-      <option name="METHOD_NAME" value="checkIsCorrectNumberOfHaha" />
+      <option name="MAIN_CLASS_NAME" value="ThirdTask" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdTask.checkCorrectSortingByAsc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProfItHomeTask" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThirdTask" />
+      <option name="METHOD_NAME" value="checkCorrectSortingByAsc(java.util.List)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondTest.checkIsCorrectSizeOfResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThirdTask.checkCorrectSortingByDes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SecondTest" />
-      <option name="METHOD_NAME" value="checkIsCorrectSizeOfResult" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SecondTest.checkTheSizeLesserThanFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProfItHomeTask" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SecondTest" />
-      <option name="METHOD_NAME" value="checkTheSizeLesserThanFive" />
+      <option name="MAIN_CLASS_NAME" value="ThirdTask" />
+      <option name="METHOD_NAME" value="checkCorrectSortingByDes(java.util.List)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SecondTest.checkIsCorrectNumberOfHaha" />
+        <item itemvalue="JUnit.ThirdTask.checkCorrectSortingByDes" />
+        <item itemvalue="JUnit.ThirdTask.checkCorrectSortingByAsc" />
+        <item itemvalue="JUnit.ThirdTask" />
+        <item itemvalue="JUnit.SecondTest.checkTheCorrectResult" />
         <item itemvalue="JUnit.SecondTest" />
-        <item itemvalue="JUnit.SecondTest.checkIsCorrectSizeOfResult" />
-        <item itemvalue="JUnit.SecondTest.checkIsCorrectNumberOfGoodDay" />
-        <item itemvalue="JUnit.SecondTest.checkTheSizeLesserThanFive" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +125,10 @@
       <option name="presentableId" value="Default" />
       <updated>1667323269435</updated>
       <workItem from="1667323271339" duration="9554000" />
-      <workItem from="1667485006564" duration="10692000" />
+      <workItem from="1667485006564" duration="15772000" />
+      <workItem from="1667587590496" duration="603000" />
+      <workItem from="1668119487653" duration="620000" />
+      <workItem from="1668161570169" duration="9022000" />
     </task>
     <task id="LOCAL-00001" summary="Create empty project">
       <created>1667323421387</created>
@@ -154,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667487060303</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Task 2 done">
+      <created>1667498363499</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667498363499</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +194,7 @@
     <MESSAGE value="Start empty project" />
     <MESSAGE value="Preparation to work" />
     <MESSAGE value="Task 1 is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1 is done" />
+    <MESSAGE value="Task 2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2 done" />
   </component>
 </project>

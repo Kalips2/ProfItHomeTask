@@ -3,29 +3,38 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import static org.junit.Assert.*;
 
 public class SecondTest {
-    private Task2 task2;
+    private static final Task2 task2 = new Task2();
 
-    @Before
-    public void newTask() {
-        task2 = new Task2();
+    @Test
+    public void checkTheCorrectResult() {
+        ArrayList<String> input = new ArrayList<>();
+        initializeInputCorrect(input);
+
+        Map<String, Integer> result = new HashMap<>();
+        result = task2.fivePopularHashtag(input);
+        LinkedHashMap<String, Integer> expected = new LinkedHashMap<>();
+        expected.put("#Lol", 6);
+        expected.put("#GoodDay", 4);
+        expected.put("#ILoveYou", 3);
+        expected.put("#Break", 2);
+        expected.put("#%Haha", 2);
+
+        assertEquals(expected, result);
     }
 
 
     @Test
     public void checkIsCorrectSizeOfResult() {
-        List<String> input = new ArrayList<>();
+        ArrayList<String> input = new ArrayList<>();
         initializeInputCorrect(input);
 
         Map<String, Integer> result = new HashMap<>();
-        result = task2.fivePopularHashtag((ArrayList<String>) input);
+        result = task2.fivePopularHashtag(input);
         int expected = 5;
 
         assertSame(expected, result.size());
@@ -33,13 +42,13 @@ public class SecondTest {
 
     @Test
     public void checkIsCorrectNumberOfLol() {
-        List<String> input = new ArrayList<>();
+        ArrayList<String> input = new ArrayList<>();
         initializeInputCorrect(input);
 
 
         String hashtag = "#Lol";
         Map<String, Integer> result = new HashMap<>();
-        result = task2.fivePopularHashtag((ArrayList<String>) input);
+        result = task2.fivePopularHashtag(input);
         int expected = 6;
 
         assertSame(expected, result.get(hashtag));
@@ -47,12 +56,12 @@ public class SecondTest {
 
     @Test
     public void checkIsCorrectNumberOfGoodDay() {
-        List<String> input = new ArrayList<>();
+        ArrayList<String> input = new ArrayList<>();
         initializeInputCorrect(input);
 
         String hashtag = "#GoodDay";
         Map<String, Integer> result = new HashMap<>();
-        result = task2.fivePopularHashtag((ArrayList<String>) input);
+        result = task2.fivePopularHashtag(input);
         int expected = 4;
 
         assertSame(expected, result.get(hashtag));
@@ -60,47 +69,49 @@ public class SecondTest {
 
     @Test
     public void checkIsCorrectNumberOfILoveYou() {
-        List<String> input = new ArrayList<>();
+        ArrayList<String> input = new ArrayList<>();
         initializeInputCorrect(input);
 
         String hashtag = "#ILoveYou";
         Map<String, Integer> result = new HashMap<>();
-        result = task2.fivePopularHashtag((ArrayList<String>) input);
+        result = task2.fivePopularHashtag(input);
         int expected = 3;
 
         assertSame(expected, result.get(hashtag));
     }
+
     @Test
     public void checkIsCorrectNumberOfBreak() {
-        List<String> input = new ArrayList<>();
+        ArrayList<String> input = new ArrayList<>();
         initializeInputCorrect(input);
 
         String hashtag = "#Break";
         Map<String, Integer> result = new HashMap<>();
-        result = task2.fivePopularHashtag((ArrayList<String>) input);
+        result = task2.fivePopularHashtag(input);
         int expected = 2;
 
         assertSame(expected, result.get(hashtag));
     }
 
     @Test
-    public void checkUnExistHashTag() {
-        List<String> input = new ArrayList<>();
+    public void checkUnexistHashTag() {
+        ArrayList<String> input = new ArrayList<>();
         initializeInputCorrect(input);
 
         Map<String, Integer> result = new HashMap<>();
-        result = task2.fivePopularHashtag((ArrayList<String>) input);
+        result = task2.fivePopularHashtag(input);
 
         assertSame(null, result.get("#UnExisthashTag"));
     }
+
     @Test
     public void checkIsCorrectNumberOfHaha() {
-        List<String> input = new ArrayList<>();
+        ArrayList<String> input = new ArrayList<>();
         initializeInputCorrect(input);
 
         String hashtag = "#%Haha";
         Map<String, Integer> result = new HashMap<>();
-        result = task2.fivePopularHashtag((ArrayList<String>) input);
+        result = task2.fivePopularHashtag(input);
         int expected = 2;
 
         assertSame(expected, result.get(hashtag));
@@ -108,24 +119,29 @@ public class SecondTest {
 
     @Test
     public void checkTheSizeLesserThanFive() {
-        List<String> input = new ArrayList<>();
+        ArrayList<String> input = new ArrayList<>();
         initializeInputIncorrect(input);
 
         Map<String, Integer> result = new HashMap<>();
-        result = task2.fivePopularHashtag((ArrayList<String>) input);
+        result = task2.fivePopularHashtag(input);
         int expected = 4;
 
         assertSame(expected, result.size());
     }
 
+    @Test
+    public void checkTheResultIfInputIsNull() {
+        ArrayList<String> input = new ArrayList<>();
 
+        Map<String, Integer> result = new HashMap<>();
+        result = task2.fivePopularHashtag(input);
+        int expected = 0;
 
-    @After
-    public void deleteTask() {
-        task2 = null;
+        assertSame(expected, result.size());
     }
 
-    private static void initializeInputCorrect(List<String> input) {
+
+    private static void initializeInputCorrect(ArrayList<String> input) {
         input.add("1 - Hello subscribes! #GoodDay#ILoveYou  #CantLiveWithoutU #Lol #Break");
         input.add("2 - My love is you! #ILoveYou You are my bestie #Cool #GoodDay ahahha #Lol ");
         input.add("3 - It was good cinema! #Lol #Afraid #Afraid #Afraid #Break sdsdsd #Goodday #GoodDay");
@@ -135,7 +151,8 @@ public class SecondTest {
         input.add("7 - #%Haha It was so funny! Thx to all my friend #Lol#AfraidTaxi#ILoveYou");
         input.add("8 - ");
     }
-    private static void initializeInputIncorrect(List<String> input) {
+
+    private static void initializeInputIncorrect(ArrayList<String> input) {
         input.add("7 - #%Haha It was so funny! Thx to all my friend #Lol#AfraidTaxi#ILoveYou");
         input.add("8 - ");
     }

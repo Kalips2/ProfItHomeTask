@@ -7,12 +7,8 @@ import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 public class FirstTest {
-    private Task1 task1;
 
-    @Before
-    public void newTask() {
-        task1 = new Task1();
-    }
+    private static final Task1 task1 = new Task1();
 
     @Test
     public void checkLengthOfResult() {
@@ -57,7 +53,7 @@ public class FirstTest {
     @Test
     public void checkIsCorrectResultForAllPositiveNumbers() {
         int[] input = {23, 12, 282, 32, 9, 2, 0};
-        int[] expected = {282, 32, 23, 12, 9, 2 ,0};
+        int[] expected = {282, 32, 23, 12, 9, 2, 0};
         int[] result = task1.checkAndReversePositiveNumber(input);
         assertArrayEquals(expected, result);
     }
@@ -70,8 +66,4 @@ public class FirstTest {
         assertArrayEquals(expected, result);
     }
 
-    @After
-    public void deleteTask() {
-        task1 = null;
-    }
 }
