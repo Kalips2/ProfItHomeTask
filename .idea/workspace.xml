@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7edf9e94-742e-4e7b-8942-743ef3d17983" name="Changes" comment="Task 2, Task 3 done. Delete @After, @Begin in test. Add tests to 3 task">
+    <list default="true" id="7edf9e94-742e-4e7b-8942-743ef3d17983" name="Changes" comment="Delete unnecessary comments, refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home1/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home1/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home1/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home1/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home1/figures/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home1/figures/Cube.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home1/figures/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home1/figures/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home1/figures/Sphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home1/figures/Sphere.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +46,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ThirdTask">
+  <component name="RunManager" selected="JUnit.ThirdTask.checkCorrectSortingByAsc">
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <option name="PACKAGE_NAME" value="" />
@@ -103,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThirdTask.checkCorrectSortingByAsc" />
         <item itemvalue="JUnit.ThirdTask" />
         <item itemvalue="JUnit.SecondTest.checkTheCorrectResult" />
         <item itemvalue="JUnit.FirstTest" />
         <item itemvalue="JUnit.ThirdTask.checkCorrectSortingByDes" />
-        <item itemvalue="JUnit.ThirdTask.checkCorrectSortingByAsc" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +117,8 @@
       <workItem from="1667485006564" duration="15772000" />
       <workItem from="1667587590496" duration="603000" />
       <workItem from="1668119487653" duration="620000" />
-      <workItem from="1668161570169" duration="9325000" />
+      <workItem from="1668161570169" duration="9568000" />
+      <workItem from="1668209980479" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="Create empty project">
       <created>1667323421387</created>
@@ -174,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668178523708</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Delete unnecessary comments, refactor">
+      <created>1668178826316</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668178826316</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +200,7 @@
     <MESSAGE value="Task 1 is done" />
     <MESSAGE value="Task 2 done" />
     <MESSAGE value="Task 2, Task 3 done. Delete @After, @Begin in test. Add tests to 3 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2, Task 3 done. Delete @After, @Begin in test. Add tests to 3 task" />
+    <MESSAGE value="Delete unnecessary comments, refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete unnecessary comments, refactor" />
   </component>
 </project>

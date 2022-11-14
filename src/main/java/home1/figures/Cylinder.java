@@ -28,12 +28,12 @@ public class Cylinder extends Shape {
     }
 
     @Override
-    public void calculateVolume() {
-        setVolume(Math.PI * radius * radius * height);
+    public double calculateVolume() {
+        return Math.PI * radius * radius * height;
     }
 
     @Override
     public String toString() {
-        return "Cylinder:" + radius + " "  + height +  " " +  getVolume();
+        return "Cylinder:" + radius + " " + height + " ";
     }
 }

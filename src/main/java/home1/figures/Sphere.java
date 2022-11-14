@@ -6,8 +6,8 @@ public class Sphere extends Shape {
     private double radius;
 
     @Override
-    public void calculateVolume() {
-        setVolume(4 * Math.PI * radius * radius * radius / 3);
+    public double calculateVolume() {
+        return 4 * Math.PI * radius * radius * radius / 3;
     }
 
     public double getRadius() {
@@ -25,6 +25,6 @@ public class Sphere extends Shape {
 
     @Override
     public String toString() {
-        return "Sphere: " + radius + " " + getVolume();
+        return "Sphere: " + radius;
     }
 }

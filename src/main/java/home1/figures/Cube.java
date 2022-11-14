@@ -18,12 +18,12 @@ public class Cube extends Shape {
     }
 
     @Override
-    public void calculateVolume() {
-        setVolume(side * side * side);
+    public double calculateVolume() {
+        return side * side * side;
     }
 
     @Override
     public String toString() {
-        return "Cube: " + side + " " + getVolume();
+        return "Cube: " + side;
     }
 }
