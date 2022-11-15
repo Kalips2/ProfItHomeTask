@@ -6,7 +6,6 @@ public class Cube extends Shape {
 
     public Cube(double side) {
         this.side = side;
-        calculateVolume();
     }
 
     public double getSide() {

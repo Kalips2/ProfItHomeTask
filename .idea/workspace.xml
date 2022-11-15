@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7edf9e94-742e-4e7b-8942-743ef3d17983" name="Changes" comment="Delete unnecessary comments, refactor">
+    <list default="true" id="7edf9e94-742e-4e7b-8942-743ef3d17983" name="Changes" comment="Delete volume as attribute of classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ThirdTask.checkCorrectSortingByAsc">
+  <component name="RunManager" selected="JUnit.ThirdTask">
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ThirdTask.checkCorrectSortingByAsc" />
         <item itemvalue="JUnit.ThirdTask" />
+        <item itemvalue="JUnit.ThirdTask.checkCorrectSortingByAsc" />
         <item itemvalue="JUnit.SecondTest.checkTheCorrectResult" />
         <item itemvalue="JUnit.FirstTest" />
         <item itemvalue="JUnit.ThirdTask.checkCorrectSortingByDes" />
@@ -119,6 +119,8 @@
       <workItem from="1668119487653" duration="620000" />
       <workItem from="1668161570169" duration="9568000" />
       <workItem from="1668209980479" duration="13000" />
+      <workItem from="1668461618371" duration="575000" />
+      <workItem from="1668511569490" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="Create empty project">
       <created>1667323421387</created>
@@ -176,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668178826316</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Delete volume as attribute of classes">
+      <created>1668461916198</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668461916198</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +210,7 @@
     <MESSAGE value="Task 2 done" />
     <MESSAGE value="Task 2, Task 3 done. Delete @After, @Begin in test. Add tests to 3 task" />
     <MESSAGE value="Delete unnecessary comments, refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete unnecessary comments, refactor" />
+    <MESSAGE value="Delete volume as attribute of classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete volume as attribute of classes" />
   </component>
 </project>

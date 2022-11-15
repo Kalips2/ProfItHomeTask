@@ -20,7 +20,6 @@ public class Sphere extends Shape {
 
     public Sphere(double radius) {
         this.radius = radius;
-        calculateVolume();
     }
 
     @Override
