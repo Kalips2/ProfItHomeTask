@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7edf9e94-742e-4e7b-8942-743ef3d17983" name="Changes" comment="Delete volume as attribute of classes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/home2/ReplacerXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/home2/task1/persons.xml" afterDir="false" />
+    <list default="true" id="7edf9e94-742e-4e7b-8942-743ef3d17983" name="Changes" comment="Done home 2 task 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/home2/JsonToXmlStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/home2/model/ViolationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/home2/task2/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home2/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/home1/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/home1/SecondTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/home1/ThirdTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/home2/task2/2019.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/home2/task2/violations/2019.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/home2/task2/2020.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/home2/task2/violations/2020.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/home2/task2/2021.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/home2/task2/violations/2021.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/home2/task2/2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/home2/task2/violations/2022.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\main\resources\home2\task2\violations" />
       <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\main\resources\home2\task1" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -63,9 +66,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReplacerXml">
-    <configuration name="ReplacerXml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="home2.ReplacerXml" />
+  <component name="RunManager" selected="Application.JsonToXmlStatistics">
+    <configuration name="JsonToXmlStatistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home2.JsonToXmlStatistics" />
       <module name="ProfItHomeTask" />
       <extension name="coverage">
         <pattern>
@@ -77,11 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReplacerXml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home2.ReplacerXml" />
       <module name="ProfItHomeTask" />
-      <option name="PACKAGE_NAME" value="home1" />
-      <option name="MAIN_CLASS_NAME" value="home1.FirstTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home2.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JsonToXmlStatistics" />
         <item itemvalue="Application.ReplacerXml" />
         <item itemvalue="JUnit.ThirdTask" />
         <item itemvalue="JUnit.ThirdTask.checkCorrectSortingByAsc" />
         <item itemvalue="JUnit.SecondTest.checkTheCorrectResult" />
-        <item itemvalue="JUnit.FirstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +160,7 @@
       <workItem from="1668814374457" duration="277000" />
       <workItem from="1668858804551" duration="87000" />
       <workItem from="1669311502478" duration="3583000" />
-      <workItem from="1669463028911" duration="12042000" />
+      <workItem from="1669463028911" duration="21206000" />
     </task>
     <task id="LOCAL-00001" summary="Create empty project">
       <created>1667323421387</created>
@@ -225,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668543940363</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Done home 2 task 1">
+      <created>1669476888784</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669476888784</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +265,7 @@
     <MESSAGE value="Task 2, Task 3 done. Delete @After, @Begin in test. Add tests to 3 task" />
     <MESSAGE value="Delete unnecessary comments, refactor" />
     <MESSAGE value="Delete volume as attribute of classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete volume as attribute of classes" />
+    <MESSAGE value="Done home 2 task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done home 2 task 1" />
   </component>
 </project>
