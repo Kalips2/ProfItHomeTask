@@ -1,3 +1,5 @@
+package home1;
+
 import home1.figures.Cube;
 import home1.figures.Cylinder;
 import home1.figures.Shape;
