@@ -5,17 +5,16 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import home2.model.ViolationDTO;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Comparator;
+import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
+import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class JsonToXmlStatistics {
@@ -23,37 +22,59 @@ public class JsonToXmlStatistics {
   public static final String PATH_TO_DIRECTORY = "src/main/resources/home2/task2/violations";
   public static final String PATH_TO_XML = "src/main/resources/home2/task2/statistics.xml";
 
-  public static void main(String[] args) {
-
+  /**
+   * Create a new file statistics.xml that store the total amount of fines for each type of
+   * violation for all years, sorted by amount (first by the highest amount of fine).
+   *
+   * @param pathToJson - path do folder with json files that contain information from the database
+   */
+  private static void createStatistics(String pathToJson, String pathToXml) {
     try (Stream<Path> resources = Files
-        .walk(Paths.get(PATH_TO_DIRECTORY))
+        .walk(Paths.get(pathToJson))
         .filter(Files::isRegularFile)) {
 
-      Map<String, Integer> listOfViolation = new HashMap<>();
-      List<ViolationDTO> result = new ArrayList<>();
-      resources.forEach(a -> workWithFile(a, result, listOfViolation));
+      Map<String, Double> violations = new HashMap<>();
 
-      result.sort(Comparator.comparing(ViolationDTO::getFine_amount).reversed());
+      resources.forEach(a -> workWithFile(a, violations));
 
-      writeToXml(PATH_TO_XML, result);
+      Map<String,Double> result =  violations.entrySet().stream()
+          .sorted(Collections.reverseOrder(Map.Entry.comparingByValue()))
+          .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1,
+              LinkedHashMap::new));
+
+      writeToXml(pathToXml, result);
 
     } catch (IOException e) {
       e.printStackTrace();
     }
   }
 
-  private static void writeToXml(String path, List<ViolationDTO> result) {
+  /**
+   * Fills the xml file with data obtained from the list of all violations.
+   *
+   * @param path   - path to xml file.
+   * @param violations - Map of all type of violation with according amount of fine.
+   */
+
+  private static void writeToXml(String path, Map<String, Double> violations) {
     try {
       XmlMapper xmlMapper = new XmlMapper();
       xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
-      xmlMapper.writeValue(new File(path), result);
+      xmlMapper.writeValue(new File(path), violations);
     } catch (IOException e) {
       e.printStackTrace();
     }
   }
 
-  private static void workWithFile(Path filePath, List<ViolationDTO> result,
-                                   Map<String, Integer> listOfViolation) {
+  /**
+   * Method parse line by line particular json file, analyze him and change the total result.
+   *
+   * @param filePath        - path to particular json file.
+   * @param violations - Map of all type of violation with according amount of fine.
+   */
+
+  private static void workWithFile(Path filePath,
+                                   Map<String, Double> violations) {
 
     try {
       JsonFactory jfactory = new JsonFactory();
@@ -71,13 +92,11 @@ public class JsonToXmlStatistics {
 
         if ("fine_amount".equals(fieldname)) {
           jParser.nextToken();
-          if (listOfViolation.containsKey(currentToken)) {
-            int index = listOfViolation.get(currentToken);
-            result.set(index, new ViolationDTO(currentToken,
-                result.get(index).getFine_amount() + jParser.getDoubleValue()));
+          Double fine = jParser.getDoubleValue();
+          if (violations.containsKey(currentToken)) {
+            violations.put(currentToken, violations.get(currentToken) + fine);
           } else {
-            listOfViolation.put(currentToken, listOfViolation.size());
-            result.add(new ViolationDTO(currentToken, jParser.getDoubleValue()));
+            violations.put(currentToken, fine);
           }
         }
       }
@@ -86,5 +105,9 @@ public class JsonToXmlStatistics {
       e.printStackTrace();
     }
 
+  }
+
+  public static void main(String[] args) {
+    createStatistics(PATH_TO_DIRECTORY, PATH_TO_XML);
   }
 }

@@ -1,22 +1,7 @@
-<ArrayList>
-  <item>
-    <type>DRUNK</type>
-    <fine_amount>9793.0</fine_amount>
-  </item>
-  <item>
-    <type>SPEEDING</type>
-    <fine_amount>3201.0</fine_amount>
-  </item>
-  <item>
-    <type>LICENSE</type>
-    <fine_amount>2791.2</fine_amount>
-  </item>
-  <item>
-    <type>RED_SIGNAL</type>
-    <fine_amount>2034.7</fine_amount>
-  </item>
-  <item>
-    <type>DISTRACTED</type>
-    <fine_amount>1822.9</fine_amount>
-  </item>
-</ArrayList>
+<LinkedHashMap>
+  <DRUNK>9793.0</DRUNK>
+  <SPEEDING>3201.0</SPEEDING>
+  <LICENSE>2791.2</LICENSE>
+  <RED_SIGNAL>2034.7</RED_SIGNAL>
+  <DISTRACTED>1822.9</DISTRACTED>
+</LinkedHashMap>

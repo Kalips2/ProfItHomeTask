@@ -19,6 +19,14 @@ public class ReplacerXml {
     editXmlFile(NEW_FILE_PATH, FILE_PATH);
   }
 
+  /**
+   * Create a copy of file in which the value of the surname attribute is combined with the name.
+   * The surname attribute is deleted.
+   * Formatting of the output file repeated the formatting of the input file.
+   *
+   * @param newFilePath   - path to new xml file.
+   * @param filePath - path to xml file we need to copying.
+   */
   private static void editXmlFile(String newFilePath, String filePath) {
     try (BufferedWriter output = new BufferedWriter(new FileWriter(newFilePath));
          BufferedReader input = new BufferedReader(new FileReader(filePath))
