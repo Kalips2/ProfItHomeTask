@@ -10,10 +10,8 @@ import java.util.regex.Pattern;
 
 public class ReplacerXml {
 
-  public static final String NEW_FILE_PATH =
-      "D:\\Рабочий стол\\JavaPractice\\ProfItHomeTask\\src\\main\\resources\\home2\\task1\\personsEdited.xml";
-  public static final String FILE_PATH =
-      "D:\\Рабочий стол\\JavaPractice\\ProfItHomeTask\\src\\main\\resources\\home2\\task1\\persons.xml";
+  public static final String NEW_FILE_PATH = "src/main/resources/home2/task1/personsEdited.xml";
+  public static final String FILE_PATH = "src/main/resources/home2/task1/persons.xml";
 
   public static void main(String[] args) {
     editXmlFile(NEW_FILE_PATH, FILE_PATH);
@@ -24,8 +22,8 @@ public class ReplacerXml {
    * The surname attribute is deleted.
    * Formatting of the output file repeated the formatting of the input file.
    *
-   * @param newFilePath   - path to new xml file.
-   * @param filePath - path to xml file we need to copying.
+   * @param newFilePath - path to new xml file.
+   * @param filePath    - path to xml file we need to copying.
    */
   private static void editXmlFile(String newFilePath, String filePath) {
     try (BufferedWriter output = new BufferedWriter(new FileWriter(newFilePath));

@@ -1,7 +1,22 @@
-<LinkedHashMap>
-  <DRUNK>9793.0</DRUNK>
-  <SPEEDING>3201.0</SPEEDING>
-  <LICENSE>2791.2</LICENSE>
-  <RED_SIGNAL>2034.7</RED_SIGNAL>
-  <DISTRACTED>1822.9</DISTRACTED>
-</LinkedHashMap>
+<Statistics>
+  <item>
+    <type>Drunk driving</type>
+    <fine>9793.0</fine>
+  </item>
+  <item>
+    <type>Driving over speed</type>
+    <fine>3201.0</fine>
+  </item>
+  <item>
+    <type>Driving with an expired license</type>
+    <fine>2791.2</fine>
+  </item>
+  <item>
+    <type>Driving through a red signal</type>
+    <fine>2034.7</fine>
+  </item>
+  <item>
+    <type>Driving with a seat belt not fastened</type>
+    <fine>1822.9</fine>
+  </item>
+</Statistics>

@@ -1,5 +1,6 @@
 <persons> <person name="Іван Котляревський" birthData="09.09.1769"  /> <person
     name="Тарас Шевченко"
+   
 
     birthData="09.03.1814"
 
@@ -15,24 +16,23 @@
            
             birthData="13.02.1871" />
 
-    <person birthData="27.08.1856"
-            name=   "Іван Франко   "
-              />
-
+    <person    name="Іван  Котляр"      birthData="09.03.1769"/>
     <person
-        name="Леся Українка"
-       
-        birthData="13.02.1871"
+           
+            name="тарас шевченко"
 
-        />
 
-    <person name="Іван Котляре" birthData="09.03.1769"/>
-    <person name="тарас Шевченко" birthDate="09.03.1814" />
+            birthDate="09.03.1814" />
     <person
             birthData="27.08.1856"
-            name="Іван   Франко"
-              />
+            name="Іван Франко"
+
+
+           />
     <person name="Леся Українка"
+
+
+
            
             birthData="09.03.1814"  />
 

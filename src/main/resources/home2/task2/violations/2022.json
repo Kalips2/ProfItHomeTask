@@ -3,84 +3,84 @@
     "date_time": "2022-08-10 15:39:03",
     "first_name": "Ivan",
     "last_name": "Ivanov",
-    "type": "RED_SIGNAL",
+    "type": "Driving through a red signal",
     "fine_amount": 156.70
   },
   {
     "date_time": "2022-12-12 20:39:03",
     "first_name": "Anton",
     "last_name": "Antonov",
-    "type": "DRUNK",
+    "type": "Drunk driving",
     "fine_amount": 500.60
   },
   {
     "date_time": "2022-11-11 20:21:04",
     "first_name": "Sidr",
     "last_name": "Olexa",
-    "type": "SPEEDING",
+    "type": "Driving over speed",
     "fine_amount": 900.00
   },
   {
     "date_time": "2022-12-02 23:42:03",
     "first_name": "Misha",
     "last_name": "Vorot",
-    "type": "RED_SIGNAL",
+    "type": "Driving through a red signal",
     "fine_amount": 125.45
   },
   {
     "date_time": "2022-02-07 02:50:03",
     "first_name": "Evgeniy",
     "last_name": "Zatulyk",
-    "type": "SPEEDING",
+    "type": "Driving over speed",
     "fine_amount": 120.00
   },
   {
     "date_time": "2022-02-07 02:50:03",
     "first_name": "Optimus",
     "last_name": "Praim",
-    "type": "DRUNK",
+    "type": "Drunk driving",
     "fine_amount": 250.00
   },
   {
     "date_time": "2022-02-07 02:50:03",
     "first_name": "Mihail",
     "last_name": "Zadorniy",
-    "type": "DRUNK",
+    "type": "Drunk driving",
     "fine_amount": 100.20
   },
   {
     "date_time": "2022-02-07 02:50:03",
     "first_name": "Mihail",
     "last_name": "Zadorniy",
-    "type": "DISTRACTED",
+    "type": "Driving with a seat belt not fastened",
     "fine_amount": 120.50
   },
   {
     "date_time": "2022-02-07 02:50:03",
     "first_name": "Mihail",
     "last_name": "Zadorniy",
-    "type": "SPEEDING",
+    "type": "Driving over speed",
     "fine_amount": 135.50
   },
   {
     "date_time": "2022-02-07 02:50:03",
     "first_name": "Mihail",
     "last_name": "Zadorniy",
-    "type": "DRUNK",
+    "type": "Drunk driving",
     "fine_amount": 1780.80
   },
   {
     "date_time": "2022-02-07 02:50:03",
     "first_name": "Mihail",
     "last_name": "Zadorniy",
-    "type": "LICENSE",
+    "type": "Driving with an expired license",
     "fine_amount": 100.60
   },
   {
     "date_time": "2022-02-07 02:50:03",
     "first_name": "Mihail",
     "last_name": "Zadorniy",
-    "type": "RED_SIGNAL",
+    "type": "Driving through a red signal",
     "fine_amount": 250.00
   }
 ]

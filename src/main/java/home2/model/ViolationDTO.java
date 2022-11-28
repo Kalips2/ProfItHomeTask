@@ -5,10 +5,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class ViolationDTO{
-  private String type;
-  private Double fine_amount;
-
+@AllArgsConstructor
+public class ViolationDTO {
+  String type;
+  Double fine;
 }

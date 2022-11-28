@@ -1,5 +1,6 @@
-<persons> <person name="Іван" surname="Котляревський" birthData="09.09.1769"  /> <person
-    surname="Шевченко" name="Тарас"
+<persons> <person name="Іван" surname = "Котляревський" birthData="09.09.1769"  /> <person
+    name="Тарас"
+    surname = "Шевченко"
 
     birthData="09.03.1814"
 
@@ -15,24 +16,23 @@
             surname="Українка"
             birthData="13.02.1871" />
 
-    <person birthData="27.08.1856"
-            name=   "Іван"
-            surname = "Франко   "   />
-
+    <person    name="Іван "  surname = "Котляр"     birthData="09.03.1769"/>
     <person
-        name="Леся"
-        surname  ="Українка"
-        birthData="13.02.1871"
+            surname = "шевченко"
+            name="тарас"
 
-        />
 
-    <person name="Іван" surname="Котляре" birthData="09.03.1769"/>
-    <person surname="Шевченко" name="тарас" birthDate="09.03.1814" />
+            birthDate="09.03.1814" />
     <person
             birthData="27.08.1856"
             name="Іван"
-            surname = "  Франко"   />
+
+
+            surname="Франко"/>
     <person name="Леся"
+
+
+
             surname="Українка"
             birthData="09.03.1814"  />
 
