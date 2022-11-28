@@ -4,7 +4,6 @@ import home1.figures.Cube;
 import home1.figures.Cylinder;
 import home1.figures.Shape;
 import home1.figures.Sphere;
-import home1.Task3;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;

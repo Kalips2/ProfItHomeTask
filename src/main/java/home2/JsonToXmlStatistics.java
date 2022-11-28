@@ -20,16 +20,14 @@ import java.util.stream.Stream;
 
 public class JsonToXmlStatistics {
 
-  public static final String PATH_TO_DIRECTORY = "src/main/resources/home2/task2/violations";
-  public static final String PATH_TO_XML = "src/main/resources/home2/task2/statistics.xml";
-
   /**
    * Create a new file statistics.xml that store the total amount of fines for each type of
    * violation for all years, sorted by amount (first by the highest amount of fine).
    *
-   * @param pathToJson - path do folder with json files that contain information from the database
+   * @param pathToJson - path to folder with json files that contain information from the database
+   * @param pathToXml - path to new Xml file we want to create
    */
-  private static void createStatistics(String pathToJson, String pathToXml) {
+  public void createStatistics(String pathToJson, String pathToXml) {
     try (Stream<Path> resources = Files
         .walk(Paths.get(pathToJson))
         .filter(Files::isRegularFile)) {
@@ -57,7 +55,7 @@ public class JsonToXmlStatistics {
    * @param violations - Map of all type of violation with according amount of fine.
    */
 
-  private static void writeToXml(String path, List<ViolationDTO> violations) {
+  private void writeToXml(String path, List<ViolationDTO> violations) {
     try {
       XmlMapper xmlMapper = new XmlMapper();
       xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
@@ -76,8 +74,8 @@ public class JsonToXmlStatistics {
    * @param violations - Map of all type of violation with according amount of fine.
    */
 
-  private static void workWithFile(Path filePath,
-                                   Map<String, Double> violations) {
+  private void workWithFile(Path filePath,
+                            Map<String, Double> violations) {
 
     JsonFactory jfactory = new JsonFactory();
     try (JsonParser jParser = jfactory.createParser(filePath.toFile())) {
@@ -114,7 +112,4 @@ public class JsonToXmlStatistics {
 
   }
 
-  public static void main(String[] args) {
-    createStatistics(PATH_TO_DIRECTORY, PATH_TO_XML);
-  }
 }

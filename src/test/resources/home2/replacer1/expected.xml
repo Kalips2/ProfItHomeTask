@@ -1,6 +1,6 @@
 <persons> <person name="Іван Котляревський" birthData="09.09.1769"  /> <person
     name="Тарас Шевченко"
-   
+
 
     birthData="09.03.1814"
 
@@ -13,12 +13,12 @@
             name = "Іван Франко"
             />
     <person name="Леся Українка"
-           
+
             birthData="13.02.1871" />
 
     <person    name="Іван  Котляр"      birthData="09.03.1769"/>
     <person
-           
+
             name="тарас шевченко"
 
 
@@ -33,7 +33,7 @@
 
 
 
-           
+
             birthData="09.03.1814"  />
 
 </persons>

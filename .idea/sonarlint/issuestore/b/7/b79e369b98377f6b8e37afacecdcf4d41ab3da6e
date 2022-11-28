@@ -1,0 +1,8 @@
+
+ƒ
+java:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(è®¥†
+{
+java:S1319"eThe type of "array" should be an interface such as "List" rather than the implementation "ArrayList".(è®¥†
+~
+java:S14883"cImmediately return this expression instead of assigning it to the temporary variable "finalResult".(¥Âä¤ıÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±ı´
