@@ -4,41 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7edf9e94-742e-4e7b-8942-743ef3d17983" name="Changes" comment="Change logic of algorithms in JsonToXmlStatistics, that it work with incorrect order of type and fine">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/15d96d7cc17cf7d7fb9e7532385620ce6df6d673" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ef7c186ce404e1db2e16b44710708a73f7b2bae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e602d995d42eb42d2b264cbf5a64489409cf8e1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/848d51e8a9b9016472a3af5a5c9141659eb5850a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a08902b519556658a29faddd96aab1045e5ab681" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b79e369b98377f6b8e37afacecdcf4d41ab3da6e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9dd67e5024accac4c5e39e32d7a2c49fe5327bc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc4cc5cf66c372d720ecbd057eaf1fc912a7d838" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1902c1115117fc2272eefe0b279774428617e37" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4ef4c0c880418960b367929ac8f5fb7aaedfd20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/home2/services/ReplacerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/home2/services/StatisticService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/home2/JsonToXmlStatisticsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/home2/ReplacerXmlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/home2/replacer1/expected.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/home2/replacer2/expected.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/home2/replacer2/persons.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/home2/replacer2/personsEdited.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/home2/statistics1/statistics.xml" afterDir="false" />
+    <list default="true" id="7edf9e94-742e-4e7b-8942-743ef3d17983" name="Changes" comment="Add tests, refactors methods, change logic in Statistics">
+      <change afterPath="$PROJECT_DIR$/src/main/java/home3/task1/StatisticsMultithread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/home3/task1/model/Violation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/home3/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/home2/JsonToXmlStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home2/JsonToXmlStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home2/ReplacerXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home2/ReplacerXml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/home2/task1/persons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/home2/replacer1/persons.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/home2/task1/personsEdited.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/home2/replacer1/personsEdited.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/home2/task2/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/home2/statistics1/expected.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/home2/task2/violations/2019.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/home2/statistics1/violations/2019.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/home2/task2/violations/2020.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/home2/statistics1/violations/2020.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/home2/task2/violations/2021.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/home2/statistics1/violations/2021.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/home2/task2/violations/2022.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/home2/statistics1/violations/2022.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/home1/ThirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/home1/ThirdTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/home2/model/ViolationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home2/model/ViolationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/home2/JsonToXmlStatisticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/home2/JsonToXmlStatisticsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/home2/statistics1/expected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/home2/statistics1/expected.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/home2/statistics1/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/home2/statistics1/statistics.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +34,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GxHMQQlpVheNVhft8eq4fEioB8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,7 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last.edited.regexp": "        name=\"Леся\"",
-    "last_opened_file_path": "D:/Рабочий стол/JavaPractice/ProfItHomeTask/src/test/resources/home2",
+    "last_opened_file_path": "D:/Рабочий стол/JavaPractice/ProfItHomeTask/src/test/resources/home3/dirr",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -81,9 +58,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\test\resources\home3\dirr" />
+      <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\test\resources\home3\statistics\violations\violations" />
       <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\test\resources\home2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\test\resources\home3\statistics\violations\violations" />
+      <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\test\resources\home3\statistics\violations" />
       <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\test\resources" />
       <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\main\resources\home2\task2\violations" />
       <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\main\resources\home2\task1" />
@@ -92,84 +73,82 @@
       <recent name="home1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="home3.task1" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JsonToXmlStatisticsTest.correctGenerationFileAndRightStatistics">
-    <configuration name="JsonToXmlStatisticsTest.correctGenerationFileAndRightStatistics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home3.task1.Main" />
       <module name="ProfItHomeTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="home2.*" />
+          <option name="PATTERN" value="home3.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="home2" />
-      <option name="MAIN_CLASS_NAME" value="home2.JsonToXmlStatisticsTest" />
-      <option name="METHOD_NAME" value="correctGenerationFileAndRightStatistics" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonToXmlStatisticsTest.exceptionWhenPathToIncorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StatisticsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="home2.*" />
+          <option name="PATTERN" value="home3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="home2" />
-      <option name="MAIN_CLASS_NAME" value="home2.JsonToXmlStatisticsTest" />
-      <option name="METHOD_NAME" value="exceptionWhenPathToIncorrect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReplacerXmlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProfItHomeTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="home2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="home2" />
-      <option name="MAIN_CLASS_NAME" value="home2.ReplacerXmlTest" />
+      <option name="PACKAGE_NAME" value="home3" />
+      <option name="MAIN_CLASS_NAME" value="home3.StatisticsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplacerXmlTest.correctGenerationFileWithRightData1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StatisticsTest.correstResultForOneThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="home2.*" />
+          <option name="PATTERN" value="home3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="home2" />
-      <option name="MAIN_CLASS_NAME" value="home2.ReplacerXmlTest" />
-      <option name="METHOD_NAME" value="correctGenerationFileWithRightData1" />
+      <option name="PACKAGE_NAME" value="home3" />
+      <option name="MAIN_CLASS_NAME" value="home3.StatisticsTest" />
+      <option name="METHOD_NAME" value="correstResultForOneThread" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplacerXmlTest.correctGenerationFileWithRightData2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StatisticsTest.throwExceptionWhenNumberOfIterationsLesser1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="home2.*" />
+          <option name="PATTERN" value="home3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="home2" />
-      <option name="MAIN_CLASS_NAME" value="home2.ReplacerXmlTest" />
-      <option name="METHOD_NAME" value="correctGenerationFileWithRightData2" />
+      <option name="PACKAGE_NAME" value="home3" />
+      <option name="MAIN_CLASS_NAME" value="home3.StatisticsTest" />
+      <option name="METHOD_NAME" value="throwExceptionWhenNumberOfIterationsLesser1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticsTest.throwExceptionWhenNumberOfThreadsLesser1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProfItHomeTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="home3" />
+      <option name="MAIN_CLASS_NAME" value="home3.StatisticsTest" />
+      <option name="METHOD_NAME" value="throwExceptionWhenNumberOfThreadsLesser1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JsonToXmlStatisticsTest.correctGenerationFileAndRightStatistics" />
-        <item itemvalue="JUnit.JsonToXmlStatisticsTest.exceptionWhenPathToIncorrect" />
-        <item itemvalue="JUnit.ReplacerXmlTest" />
-        <item itemvalue="JUnit.ReplacerXmlTest.correctGenerationFileWithRightData1" />
-        <item itemvalue="JUnit.ReplacerXmlTest.correctGenerationFileWithRightData2" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StatisticsTest.throwExceptionWhenNumberOfIterationsLesser1" />
+        <item itemvalue="JUnit.StatisticsTest.throwExceptionWhenNumberOfThreadsLesser1" />
+        <item itemvalue="JUnit.StatisticsTest" />
+        <item itemvalue="JUnit.StatisticsTest.correstResultForOneThread" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +196,23 @@
       <workItem from="1669560326511" duration="4388000" />
       <workItem from="1669566478657" duration="11000" />
       <workItem from="1669579347419" duration="10000" />
-      <workItem from="1669633773452" duration="18110000" />
+      <workItem from="1669633773452" duration="18163000" />
+      <workItem from="1669666208468" duration="33000" />
+      <workItem from="1669709306938" duration="14000" />
+      <workItem from="1669817684606" duration="783000" />
+      <workItem from="1669833723297" duration="767000" />
+      <workItem from="1669834954604" duration="19000" />
+      <workItem from="1669838341866" duration="610000" />
+      <workItem from="1669907575749" duration="7629000" />
+      <workItem from="1669975349896" duration="7917000" />
+      <workItem from="1669983392883" duration="6825000" />
+      <workItem from="1670004489977" duration="4000" />
+      <workItem from="1670060710040" duration="4000" />
+      <workItem from="1670063340172" duration="5000" />
+      <workItem from="1670323785779" duration="6759000" />
+      <workItem from="1670335259518" duration="1645000" />
+      <workItem from="1670451265916" duration="72000" />
+      <workItem from="1670498886034" duration="18141000" />
     </task>
     <task id="LOCAL-00001" summary="Create empty project">
       <created>1667323421387</created>
@@ -317,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669638955539</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add tests, refactors methods, change logic in Statistics">
+      <created>1669652777335</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669652777335</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +350,7 @@
     <MESSAGE value="Add docs to methods" />
     <MESSAGE value="Change logic of createStatistics, delete List" />
     <MESSAGE value="Change logic of algorithms in JsonToXmlStatistics, that it work with incorrect order of type and fine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change logic of algorithms in JsonToXmlStatistics, that it work with incorrect order of type and fine" />
+    <MESSAGE value="Add tests, refactors methods, change logic in Statistics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tests, refactors methods, change logic in Statistics" />
   </component>
 </project>

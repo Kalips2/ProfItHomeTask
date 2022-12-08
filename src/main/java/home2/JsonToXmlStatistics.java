@@ -8,6 +8,8 @@ import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import home2.model.ViolationDTO;
 import java.io.File;
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -25,14 +27,14 @@ public class JsonToXmlStatistics {
    * violation for all years, sorted by amount (first by the highest amount of fine).
    *
    * @param pathToJson - path to folder with json files that contain information from the database
-   * @param pathToXml - path to new Xml file we want to create
+   * @param pathToXml  - path to new Xml file we want to create
    */
   public void createStatistics(String pathToJson, String pathToXml) {
     try (Stream<Path> resources = Files
         .walk(Paths.get(pathToJson))
         .filter(Files::isRegularFile)) {
 
-      Map<String, Double> violations = new HashMap<>();
+      Map<String, BigDecimal> violations = new HashMap<>();
 
       resources.forEach(a -> workWithFile(a, violations));
 
@@ -75,13 +77,13 @@ public class JsonToXmlStatistics {
    */
 
   private void workWithFile(Path filePath,
-                            Map<String, Double> violations) {
+                            Map<String, BigDecimal> violations) {
 
     JsonFactory jfactory = new JsonFactory();
     try (JsonParser jParser = jfactory.createParser(filePath.toFile())) {
 
       String currentToken = null;
-      Double currentFine = null;
+      BigDecimal currentFine = null;
 
       while (jParser.nextToken() != JsonToken.END_ARRAY) {
         String fieldname = jParser.getCurrentName();
@@ -93,12 +95,13 @@ public class JsonToXmlStatistics {
 
         if ("fine_amount".equals(fieldname)) {
           jParser.nextToken();
-          currentFine = jParser.getDoubleValue();
+          currentFine = BigDecimal.valueOf(Double.valueOf(jParser.getText()));
+          currentFine = currentFine.setScale(2, RoundingMode.HALF_UP);
         }
 
         if (currentFine != null && currentToken != null) {
           if (violations.containsKey(currentToken)) {
-            violations.put(currentToken, violations.get(currentToken) + currentFine);
+            violations.put(currentToken, currentFine.add(violations.get(currentToken)));
           } else {
             violations.put(currentToken, currentFine);
           }

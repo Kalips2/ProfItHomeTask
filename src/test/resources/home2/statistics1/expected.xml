@@ -1,22 +1,22 @@
 <Statistics>
   <item>
     <type>Drunk driving</type>
-    <fine>9793.0</fine>
+    <fine>9793.00</fine>
   </item>
   <item>
     <type>Driving over speed</type>
-    <fine>3201.0</fine>
+    <fine>3201.00</fine>
   </item>
   <item>
     <type>Driving with an expired license</type>
-    <fine>2791.2</fine>
+    <fine>2791.20</fine>
   </item>
   <item>
     <type>Driving through a red signal</type>
-    <fine>2034.7</fine>
+    <fine>2034.70</fine>
   </item>
   <item>
     <type>Driving with a seat belt not fastened</type>
-    <fine>1822.9</fine>
+    <fine>1822.90</fine>
   </item>
 </Statistics>

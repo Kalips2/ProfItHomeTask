@@ -1,0 +1,22 @@
+<Statistics>
+  <item>
+    <type>Driving through a red signal</type>
+    <fine>655883463.06</fine>
+  </item>
+  <item>
+    <type>Driving with an expired license</type>
+    <fine>655035432.73</fine>
+  </item>
+  <item>
+    <type>Driving over speed</type>
+    <fine>651905601.00</fine>
+  </item>
+  <item>
+    <type>Drunk driving</type>
+    <fine>650262246.19</fine>
+  </item>
+  <item>
+    <type>Driving with a seat belt not fastened</type>
+    <fine>643181881.32</fine>
+  </item>
+</Statistics>
