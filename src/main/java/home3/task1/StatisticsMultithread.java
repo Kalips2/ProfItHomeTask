@@ -27,7 +27,7 @@ import java.util.stream.Stream;
 /**
  * The class in charge of process files with violations and create a new xml file with statistics.
  * The main a
- * */
+ */
 public class StatisticsMultithread {
 
   private ExecutorService executorService;
@@ -71,6 +71,7 @@ public class StatisticsMultithread {
 
   /**
    * The basic method which contain all logic. It processes files ana write statistics to new xml file.
+   *
    * @return time in ms taken to perform the method
    */
   private long startStatistics(String pathToJson, String pathToXml) {

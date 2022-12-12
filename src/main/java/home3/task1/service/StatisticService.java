@@ -1,4 +1,4 @@
-package home3.task1.services;
+package home3.task1.service;
 
 import home3.task1.StatisticsMultithread;
 
@@ -18,7 +18,7 @@ public class StatisticService {
     statisticsMultithread = new StatisticsMultithread(numberOfThread);
     long time = statisticsMultithread.createStatistics(numberOfIteration, path_to_dir, path_to_xml);
     System.out.println(
-        "For " + numberOfThread + " threads is take " + time + " ms an average for " +
+        "For " + numberOfThread + " threads it's taken " + time + " ms an average for " +
             numberOfIteration + " iterations");
   }
 }

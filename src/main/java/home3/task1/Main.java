@@ -1,6 +1,6 @@
 package home3.task1;
 
-import home3.task1.services.StatisticService;
+import home3.task1.service.StatisticService;
 
 /**
  * The entry point of application to show the different among time-consuming of work using 2, 4, 8 threads.
@@ -21,6 +21,7 @@ import home3.task1.services.StatisticService;
 public class Main {
   public static String pathTo = "src/test/resources/home3/statistics/violations";
   public static String pathFrom = "src/test/resources/home3/statistics/statistics.xml";
+
   public static final int numberOfIterations = 5;
 
   public static void main(String[] args) {

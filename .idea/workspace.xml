@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7edf9e94-742e-4e7b-8942-743ef3d17983" name="Changes" comment="Add tests, refactors methods, change logic in Statistics">
-      <change afterPath="$PROJECT_DIR$/src/main/java/home3/task1/StatisticsMultithread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/home3/task1/model/Violation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/home3/test.java" afterDir="false" />
+    <list default="true" id="7edf9e94-742e-4e7b-8942-743ef3d17983" name="Changes" comment="Done home3 task 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home2/JsonToXmlStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home2/JsonToXmlStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home2/model/ViolationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home2/model/ViolationDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/home2/JsonToXmlStatisticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/home2/JsonToXmlStatisticsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/home2/statistics1/expected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/home2/statistics1/expected.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/home2/statistics1/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/home2/statistics1/statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/home3/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home3/task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/home3/task1/StatisticsMultithread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home3/task1/StatisticsMultithread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/home3/task1/services/StatisticService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home3/task1/service/StatisticService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/home3/StatisticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/home3/StatisticsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/home3/model/IncorrectTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/home3/model/IncorrectTypeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -48,7 +46,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last.edited.regexp": "        name=\"Леся\"",
-    "last_opened_file_path": "D:/Рабочий стол/JavaPractice/ProfItHomeTask/src/test/resources/home3/dirr",
+    "last_opened_file_path": "D:/Рабочий стол/JavaPractice/ProfItHomeTask/src/test/resources/home3/annotation",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -58,40 +56,29 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\test\resources\home3\annotation" />
       <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\test\resources\home3\dirr" />
       <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\test\resources\home3\statistics\violations\violations" />
       <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\test\resources\home2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\main\resources" />
       <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\test\resources\home3\statistics\violations\violations" />
       <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\test\resources\home3\statistics\violations" />
       <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\test\resources" />
       <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\main\resources\home2\task2\violations" />
-      <recent name="D:\Рабочий стол\JavaPractice\ProfItHomeTask\src\main\resources\home2\task1" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="home1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="home3.model" />
       <recent name="home3.task1" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="home3.task1.Main" />
-      <module name="ProfItHomeTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="home3.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatisticsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LoadPropertiesTest">
+    <configuration name="LoadPropertiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <extension name="coverage">
         <pattern>
@@ -100,13 +87,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="home3" />
-      <option name="MAIN_CLASS_NAME" value="home3.StatisticsTest" />
+      <option name="MAIN_CLASS_NAME" value="home3.LoadPropertiesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatisticsTest.correstResultForOneThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoadPropertiesTest.correctWithValuesInAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <extension name="coverage">
         <pattern>
@@ -115,14 +102,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="home3" />
-      <option name="MAIN_CLASS_NAME" value="home3.StatisticsTest" />
-      <option name="METHOD_NAME" value="correstResultForOneThread" />
+      <option name="MAIN_CLASS_NAME" value="home3.LoadPropertiesTest" />
+      <option name="METHOD_NAME" value="correctWithValuesInAnnotation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatisticsTest.throwExceptionWhenNumberOfIterationsLesser1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoadPropertiesTest.correctWithoutPropertyAnnotations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <extension name="coverage">
         <pattern>
@@ -131,14 +118,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="home3" />
-      <option name="MAIN_CLASS_NAME" value="home3.StatisticsTest" />
-      <option name="METHOD_NAME" value="throwExceptionWhenNumberOfIterationsLesser1" />
+      <option name="MAIN_CLASS_NAME" value="home3.LoadPropertiesTest" />
+      <option name="METHOD_NAME" value="correctWithoutPropertyAnnotations" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatisticsTest.throwExceptionWhenNumberOfThreadsLesser1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoadPropertiesTest.throwExceptionWhenIncorrectIntegerValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProfItHomeTask" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +134,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="home3" />
-      <option name="MAIN_CLASS_NAME" value="home3.StatisticsTest" />
-      <option name="METHOD_NAME" value="throwExceptionWhenNumberOfThreadsLesser1" />
+      <option name="MAIN_CLASS_NAME" value="home3.LoadPropertiesTest" />
+      <option name="METHOD_NAME" value="throwExceptionWhenIncorrectIntegerValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoadPropertiesTest.throwExceptionWithIncorrectKeyOnString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProfItHomeTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="home3" />
+      <option name="MAIN_CLASS_NAME" value="home3.LoadPropertiesTest" />
+      <option name="METHOD_NAME" value="throwExceptionWithIncorrectKeyOnString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.StatisticsTest.throwExceptionWhenNumberOfIterationsLesser1" />
-        <item itemvalue="JUnit.StatisticsTest.throwExceptionWhenNumberOfThreadsLesser1" />
-        <item itemvalue="JUnit.StatisticsTest" />
-        <item itemvalue="JUnit.StatisticsTest.correstResultForOneThread" />
+        <item itemvalue="JUnit.LoadPropertiesTest" />
+        <item itemvalue="JUnit.LoadPropertiesTest.correctWithValuesInAnnotation" />
+        <item itemvalue="JUnit.LoadPropertiesTest.throwExceptionWhenIncorrectIntegerValue" />
+        <item itemvalue="JUnit.LoadPropertiesTest.throwExceptionWithIncorrectKeyOnString" />
+        <item itemvalue="JUnit.LoadPropertiesTest.correctWithoutPropertyAnnotations" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +215,10 @@
       <workItem from="1670323785779" duration="6759000" />
       <workItem from="1670335259518" duration="1645000" />
       <workItem from="1670451265916" duration="72000" />
-      <workItem from="1670498886034" duration="18141000" />
+      <workItem from="1670498886034" duration="23725000" />
+      <workItem from="1670598373435" duration="9037000" />
+      <workItem from="1670607552408" duration="283000" />
+      <workItem from="1670759885733" duration="13830000" />
     </task>
     <task id="LOCAL-00001" summary="Create empty project">
       <created>1667323421387</created>
@@ -319,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669652777335</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Done home3 task 1">
+      <created>1670529587131</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670529587132</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +364,7 @@
     <MESSAGE value="Change logic of createStatistics, delete List" />
     <MESSAGE value="Change logic of algorithms in JsonToXmlStatistics, that it work with incorrect order of type and fine" />
     <MESSAGE value="Add tests, refactors methods, change logic in Statistics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tests, refactors methods, change logic in Statistics" />
+    <MESSAGE value="Done home3 task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done home3 task 1" />
   </component>
 </project>
